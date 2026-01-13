@@ -43,3 +43,4 @@ choco install gopass
 choco install peazip
 winget install -e --id VRCX.VRCX
 choco install Microsoft-Hyper-V-All -source windowsFeatures
+choco install dispcalGUI 
