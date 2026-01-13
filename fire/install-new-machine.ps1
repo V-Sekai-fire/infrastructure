@@ -40,3 +40,4 @@ choco install DotNet4.5.1
 choco install epicgameslauncher
 choco install visualstudio2026community -add Component.Unreal --passive --norestart
 choco install gopass
+choco install peazip
