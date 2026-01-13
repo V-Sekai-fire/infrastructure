@@ -1,4 +1,4 @@
-# http://boxstarter.org/package/nr/url?https://gist.githubusercontent.com/fire/8f72f1983b5559bcca0c5d57d5f6b32c/raw/24de1cbf3de5556ba1ea57d6a7d2dad6f1515ba7/install-new-machine.ps1
+# http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/V-Sekai-fire/infrastructure/refs/heads/main/fire/install-new-machine.ps1
 # See http://boxstarter.org/Learn/WebLauncher
 Set-WindowsExplorerOptions -EnableShowFileExtensions
 choco install clink
