@@ -6,7 +6,7 @@ Set-ExecutionPolicy Unrestricted
 
 Set-WindowsExplorerOptions -EnableShowFileExtensions
 
-$Boxstarter.RebootOk=$true # Allow reboots?
+$Boxstarter.RebootOk=$false # Allow reboots?
 $Boxstarter.NoPassword=$false # Is this a machine with no login password?
 $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a reboot
 
