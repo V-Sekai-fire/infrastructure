@@ -8,7 +8,10 @@ $Boxstarter.RebootOk=$true # Allow reboots?
 $Boxstarter.NoPassword=$false # Is this a machine with no login password?
 $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a reboot
 
+winget install HiBitSoftware.StartUpManager
+
 choco install gh
+
 choco install clink
 # Correct time is important
 choco install nettime
