@@ -12,8 +12,6 @@ $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a r
 
 choco install vscode
 
-winget install -e --id HiBitSoftware.StartUpManager
-
 choco install gh
 
 choco install clink
