@@ -1,6 +1,13 @@
 # http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/V-Sekai-fire/infrastructure/refs/heads/main/fire/install-new-machine.ps1
 # See http://boxstarter.org/Learn/WebLauncher
+
+Set-ExecutionPolicy RemoteSigned
+
 Set-WindowsExplorerOptions -EnableShowFileExtensions
+$Boxstarter.RebootOk=$true # Allow reboots?
+$Boxstarter.NoPassword=$false # Is this a machine with no login password?
+$Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a reboot
+
 choco install clink
 # Correct time is important
 choco install nettime
