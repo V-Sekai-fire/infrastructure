@@ -51,7 +51,7 @@ choco install vcredist2008
 choco install vcredist2010
 choco install DotNet4.5.1
 choco install epicgameslauncher
-choco install visualstudio2026community -add Component.Unreal --passive --norestart
+choco install visualstudio2022community -add Component.Unreal --passive --norestart
 choco install gopass
 choco install peazip
 winget install -e --id VRCX.VRCX
