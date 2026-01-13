@@ -53,3 +53,6 @@ choco install gopass
 choco install peazip
 winget install -e --id VRCX.VRCX
 choco install dispcalGUI 
+
+choco install elixir
+choco install erlang
