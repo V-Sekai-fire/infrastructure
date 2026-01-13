@@ -1,7 +1,8 @@
 # http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/V-Sekai-fire/infrastructure/refs/heads/main/fire/install-new-machine.ps1
 # See http://boxstarter.org/Learn/WebLauncher
 
-# Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy Unrestricted -Scope Process -Force
+Set-ExecutionPolicy Unrestricted
 
 Set-WindowsExplorerOptions -EnableShowFileExtensions
 choco install vscode
