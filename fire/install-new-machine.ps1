@@ -10,6 +10,7 @@ $Boxstarter.RebootOk=$false # Allow reboots?
 $Boxstarter.NoPassword=$false # Is this a machine with no login password?
 $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a reboot
 
+choco install calibre
 choco install f.lux
 choco install streamdeck
 choco install vscode
