@@ -12,7 +12,6 @@ $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a r
 
 choco install blender
 choco install calibre
-choco install f.lux
 choco install streamdeck
 choco install vscode
 
